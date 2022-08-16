@@ -38,7 +38,7 @@ export const App = () => (
           src='images/dp.png'
           alt='Panduka Liyanathanthri'
         />
-        <Divider orientation="vertical" w='2rem'/>
+        <Divider orientation="vertical" w='2rem' />
         <Stack
           direction="column"
         >
@@ -49,6 +49,37 @@ export const App = () => (
           >
             <Heading color="white" size="xl" as='h1'>Panduka Liyanathanthri</Heading>
             <Text color="white" fontSize='lg' as='h2'>Software Developer</Text>
+          </Flex>
+          <Flex
+            h='50%'
+            direction="column"
+            justifyContent="flex-start"
+          >
+            <Stack direction="row">
+              <Link href="https://www.linkedin.com/in/pandukamuditha" target="_blank">
+                <Image
+                  w="2.5rem"
+                  src='images/linkedin.png'
+                  alt='Linkedin Profile'
+                />
+              </Link>
+              <Divider orientation="vertical" />
+              <Link href="https://github.com/pandukamuditha" target="_blank">
+                <Image
+                  w="2.5rem"
+                  src='images/github.png'
+                  alt='Github Profile'
+                />
+              </Link>
+              <Divider orientation="vertical" />
+              <Link href="https://medium.com/@pandukamuditha" target="_blank">
+                <Image
+                  w="2.5rem"
+                  src='images/medium.png'
+                  alt='Blog Profile'
+                />
+              </Link>
+            </Stack>
           </Flex>
         </Stack>
       </Stack>
