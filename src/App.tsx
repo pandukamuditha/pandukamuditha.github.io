@@ -47,8 +47,8 @@ export const App = () => (
             direction="column"
             justifyContent="flex-end"
           >
-            <Heading color="white" size="xl">Panduka Liyanathanthri</Heading>
-            <Text color="white" fontSize='lg'>Software Developer</Text>
+            <Heading color="white" size="xl" as='h1'>Panduka Liyanathanthri</Heading>
+            <Text color="white" fontSize='lg' as='h2'>Software Developer</Text>
           </Flex>
         </Stack>
       </Stack>
