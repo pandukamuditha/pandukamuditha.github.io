@@ -1,7 +1,3 @@
-## _This is a work in progress_
-
-<br>
-
 ## React based project for a portfolio web app on Github Pages
 
 Visit https://pandukamuditha.github.io/ for the live web app.
